@@ -145,9 +145,7 @@ export const SignupPage: React.FC<SignupPageProps> = ({ onGoToLogin, onGoToLandi
         </button>
 
         <div className="flex items-center justify-center gap-2">
-          <div className="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white shadow-xs">
-            <Recycle className="w-6 h-6" />
-          </div>
+          <img src="/econexus-logo.jpg" alt="EcoNexus Logo" className="w-11 h-11 rounded-xl object-cover ring-1 ring-emerald-500/20 shadow-xs" />
           <span className="text-2xl font-bold tracking-tight text-slate-900">Eco<span className="text-emerald-600">Nexus</span></span>
         </div>
 

@@ -91,9 +91,11 @@ export const Navbar: React.FC<NavbarProps> = ({
               }} 
               className="flex items-center gap-2.5 cursor-pointer group"
             >
-              <div className="w-9 h-9 rounded-xl bg-emerald-600 flex items-center justify-center text-white shadow-xs group-hover:scale-105 transition-transform">
-                <Recycle className="w-5 h-5" />
-              </div>
+              <img 
+                src="/econexus-logo.jpg" 
+                alt="EcoNexus Logo" 
+                className="w-9 h-9 rounded-xl object-cover ring-1 ring-emerald-500/20 shadow-xs group-hover:scale-105 transition-transform" 
+              />
               <div className="flex items-center gap-2">
                 <span className="text-xl font-bold tracking-tight text-slate-900">Eco<span className="text-emerald-600">Nexus</span></span>
               </div>
